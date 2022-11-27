@@ -1,0 +1,388 @@
+{
+  "uuid": "e33fffeb6f8236c23b818628571ca5d1",
+  "path": "Offline/BoilerController",
+  "name": "BoilerController",
+  "content": "",
+  "created_at": "2022-11-02 14:30:03",
+  "updated_at": "2022-11-26 09:04:30",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "b73953f5dcf214f978f6fe5b3662a77f",
+      "title": "BoilerController",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "59d6d42fb478482e83852243fcdc6db6": 6,
+        "5c551ac67b5b476ea9aa2399a3e2061b": 1,
+        "6d1444624d4b4388837c774e32c35da2": 4,
+        "edcbf6d2d1d244c2b58bcdc68171b020": 2,
+        "5d56951fd43d4b5083b0f3cd9bfd5587": 4,
+        "1c989979167c4e03ae32b61a0a205678": 1,
+        "33a90c03d857485d8a6afdcb02af4ac6": 1,
+        "ef426d4a8d544b74a9057e9a2a21b39a": 4,
+        "4e62259ddc2c45ca968630d432c5944c": 1,
+        "c5e1a28b0ea1416ab005583a2d98f282": 1,
+        "aad0a7c7bde94b908626105e18e3307e": 1,
+        "0db47afc300f410abb9eb64b4d28c7fd": 1,
+        "4438714ebead451d9100a862da360569": 1,
+        "542fec76cd0a4d2f88d631f78738e8f0": 3,
+        "82146d5523d841f2ae665c75b8ff5b3a": 1,
+        "a68dc5e6a9944c46b7604648a43dcd65": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "100nF",
+          5,
+          "RAD-0.1",
+          "C1,C4,C5,C9,C10",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "ea82fbe34d7840de9fdcf3145ab199ef",
+            "uuid": "59d6d42fb478482e83852243fcdc6db6"
+          }
+        ],
+        [
+          "47uF",
+          3,
+          "CAP-D6.3×F2.5",
+          "C2,C3,C6",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "f22f57806f1b484c9525ae585bd9e142",
+            "uuid": "6d1444624d4b4388837c774e32c35da2"
+          }
+        ],
+        [
+          "0.1u",
+          1,
+          "RAD-0.1",
+          "C7",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "ea82fbe34d7840de9fdcf3145ab199ef",
+            "uuid": "59d6d42fb478482e83852243fcdc6db6"
+          }
+        ],
+        [
+          "10uF",
+          1,
+          "CAP-D6.3×F2.5",
+          "C8",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "f22f57806f1b484c9525ae585bd9e142",
+            "uuid": "6d1444624d4b4388837c774e32c35da2"
+          }
+        ],
+        [
+          "1N4148",
+          1,
+          "DIODE-1N4148",
+          "D1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "b470404805694a8c8232625b4f74859a",
+            "uuid": "0db47afc300f410abb9eb64b4d28c7fd"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x3",
+          1,
+          "HDR-M-2.54_1X3",
+          "J1",
+          {
+            "BOM_Supplier Part": "C180248",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "9f77654394344f25b3de138e0fe05ff6",
+            "uuid": "a68dc5e6a9944c46b7604648a43dcd65"
+          }
+        ],
+        [
+          "7-20V",
+          1,
+          "CONN-TH_2P-P5.08",
+          "J2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "e51909bf23504bf8a04c047f1f5257e0",
+            "uuid": "ef426d4a8d544b74a9057e9a2a21b39a"
+          }
+        ],
+        [
+          "230VIN",
+          1,
+          "CONN-TH_2P-P5.08",
+          "J3",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "e51909bf23504bf8a04c047f1f5257e0",
+            "uuid": "ef426d4a8d544b74a9057e9a2a21b39a"
+          }
+        ],
+        [
+          "230VOUT",
+          1,
+          "CONN-TH_2P-P5.08",
+          "J4",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "e51909bf23504bf8a04c047f1f5257e0",
+            "uuid": "ef426d4a8d544b74a9057e9a2a21b39a"
+          }
+        ],
+        [
+          "0-Vo",
+          1,
+          "CONN-TH_2P-P5.08",
+          "J5",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "e51909bf23504bf8a04c047f1f5257e0",
+            "uuid": "ef426d4a8d544b74a9057e9a2a21b39a"
+          }
+        ],
+        [
+          "ZMPT101B",
+          1,
+          "ZMPT101B-MODULE",
+          "M1",
+          {
+            "BOM_Manufacturer": "sterling",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "LCSC",
+            "puuid": "32237b573f22441890aa5a797533ed01",
+            "uuid": "c5e1a28b0ea1416ab005583a2d98f282"
+          }
+        ],
+        [
+          "Mini560_DC-DC",
+          1,
+          "MINI560_DC-DC",
+          "M3",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "8e2aa3d8134940c4950e0abaf577cd35",
+            "uuid": "4e62259ddc2c45ca968630d432c5944c"
+          }
+        ],
+        [
+          "10k",
+          2,
+          "68W TRIMMER POT",
+          "P1,P2",
+          {
+            "BOM_Manufacturer Part": "68W trimmer potentiometer",
+            "puuid": "9b83b7149c0640e7b6a6a889b3ea103d",
+            "uuid": "edcbf6d2d1d244c2b58bcdc68171b020"
+          }
+        ],
+        [
+          "2N7000",
+          1,
+          "TO-92-3_L4.8-W3.7-P2.54-L",
+          "Q2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C107290",
+            "BOM_Manufacturer": "ON Semicon",
+            "BOM_Manufacturer Part": "2N7000TA",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "619489e674074de888fe8dd8f6b9799e",
+            "uuid": "82146d5523d841f2ae665c75b8ff5b3a"
+          }
+        ],
+        [
+          "3k3",
+          2,
+          "R_AXIAL-0.3",
+          "R1,R2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "3eb1249f3ebb4284ae221b0379016582",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "10k",
+          1,
+          "R_AXIAL-0.3",
+          "R3",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "3eb1249f3ebb4284ae221b0379016582",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "4k7",
+          1,
+          "R_AXIAL-0.3",
+          "R4",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "3eb1249f3ebb4284ae221b0379016582",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "ESP32 Mini 40Pins",
+          1,
+          "ESP32 MINI 40PINS",
+          "U1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "876d43fc6bcc4adb9b531dcb6e25837e",
+            "uuid": "5c551ac67b5b476ea9aa2399a3e2061b"
+          }
+        ],
+        [
+          "G2RL-1A-E-CV DC12",
+          1,
+          "G2RL-1A-E-CV",
+          "U3",
+          {
+            "BOM_Manufacturer": "Omron Electronics Inc-EMC Div",
+            "BOM_Manufacturer Part": "RELAY",
+            "BOM_Supplier Part": "G2RL-1A-E-CV DC12",
+            "BOM_Supplier": "Digi-Key",
+            "puuid": "0eeec4f1f06341ef8ceeb734237b3ab2",
+            "uuid": "aad0a7c7bde94b908626105e18e3307e"
+          }
+        ],
+        [
+          "ACS712-20A",
+          1,
+          "ACS712-20A",
+          "U7",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "Aliexpress",
+            "puuid": "dae82bb5991d4d11bf1a13408794df7d",
+            "uuid": "4438714ebead451d9100a862da360569"
+          }
+        ],
+        [
+          "DS18B20",
+          3,
+          "DS18B20",
+          "U8,U9,U10",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "82b03474aca643bda2aed9e5050ed79d",
+            "uuid": "542fec76cd0a4d2f88d631f78738e8f0"
+          }
+        ],
+        [
+          "LM358",
+          1,
+          "DIP-8_L9.8-W6.6-P2.54-LS7.6-BL",
+          "U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2902318",
+            "BOM_Manufacturer": "HTC",
+            "BOM_Manufacturer Part": "LM358GN",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "d02bd24390b14704889edf7a144138dd",
+            "uuid": "33a90c03d857485d8a6afdcb02af4ac6"
+          }
+        ]
+      ],
+      "updateTime": 1669449652,
+      "createTime": 1667395804,
+      "histories": [],
+      "created_at": "2022-11-02 14:30:04",
+      "updated_at": "2022-11-26 09:00:52"
+    },
+    {
+      "uuid": "77ea2dd4e858b2bbadca8dac76d3b8a0",
+      "puuid": "e33fffeb6f8236c23b818628571ca5d1",
+      "title": "PCB_BoilerController",
+      "filename": "PCB_BoilerController.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "9f77654394344f25b3de138e0fe05ff6": 1,
+        "82b03474aca643bda2aed9e5050ed79d": 3,
+        "619489e674074de888fe8dd8f6b9799e": 1,
+        "dae82bb5991d4d11bf1a13408794df7d": 1,
+        "3eb1249f3ebb4284ae221b0379016582": 4,
+        "ea82fbe34d7840de9fdcf3145ab199ef": 6,
+        "f22f57806f1b484c9525ae585bd9e142": 4,
+        "b470404805694a8c8232625b4f74859a": 1,
+        "e51909bf23504bf8a04c047f1f5257e0": 4,
+        "32237b573f22441890aa5a797533ed01": 1,
+        "8e2aa3d8134940c4950e0abaf577cd35": 1,
+        "9b83b7149c0640e7b6a6a889b3ea103d": 2,
+        "876d43fc6bcc4adb9b531dcb6e25837e": 1,
+        "0eeec4f1f06341ef8ceeb734237b3ab2": 1,
+        "d02bd24390b14704889edf7a144138dd": 1
+      },
+      "BOM": [],
+      "updateTime": 1669449870,
+      "createTime": 1667400715,
+      "histories": [],
+      "created_at": "2022-11-02 15:51:55",
+      "updated_at": "2022-11-26 09:04:30"
+    }
+  ],
+  "sort": [],
+  "title": "BoilerController",
+  "foldername": "BoilerController",
+  "schfilename": "BoilerController.json",
+  "schfilemtime": 1669449652899
+}
